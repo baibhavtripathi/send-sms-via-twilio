@@ -1,10 +1,10 @@
-package io.camunda.connector;
+package io.xezot.connector;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-import io.camunda.connector.impl.ConnectorInputException;
-import io.camunda.connector.test.outbound.OutboundConnectorContextBuilder;
+import io.xezot.connector.impl.ConnectorInputException;
+import io.xezot.connector.test.outbound.OutboundConnectorContextBuilder;
 import org.junit.jupiter.api.Test;
 
 public class MyRequestTest {

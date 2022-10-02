@@ -5,8 +5,8 @@
 > * [README](./README.md) (title, description)
 > * [Element Template](./element-templates/template-connector.json)
 > * [POM](./pom.xml) (artifact name, id, description)
-> * [Connector Function](./src/main/java/io/camunda/connector/MyConnectorFunction.java) (rename, implement, update `OutboundConnector` annotation)
-> * [Service Provider Interface (SPI)](./src/main/resources/META-INF/services/io.camunda.connector.api.ConnectorFunction#L1) (rename)
+> * [Connector Function](src/main/java/io/camunda/connector/MyConnectorFunction.java) (rename, implement, update `OutboundConnector` annotation)
+> * [Service Provider Interface (SPI)](./src/main/resources/META-INF/services/io.xezot.connector.api.ConnectorFunction#L1) (rename)
 >
 > ...and delete this hint.
 

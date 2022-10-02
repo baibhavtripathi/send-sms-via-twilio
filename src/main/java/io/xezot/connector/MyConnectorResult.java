@@ -1,4 +1,4 @@
-package io.camunda.connector;
+package io.xezot.connector;
 
 import java.util.Objects;
 
