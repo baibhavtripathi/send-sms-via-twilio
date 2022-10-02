@@ -1,8 +1,8 @@
 package io.xezot.connector;
 
-import io.xezot.connector.api.annotation.OutboundConnector;
-import io.xezot.connector.api.outbound.OutboundConnectorContext;
-import io.xezot.connector.api.outbound.OutboundConnectorFunction;
+import io.camunda.connector.api.annotation.OutboundConnector;
+import io.camunda.connector.api.outbound.OutboundConnectorContext;
+import io.camunda.connector.api.outbound.OutboundConnectorFunction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

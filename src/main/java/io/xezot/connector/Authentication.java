@@ -1,6 +1,6 @@
 package io.xezot.connector;
 
-import io.xezot.connector.api.annotation.Secret;
+import io.camunda.connector.api.annotation.Secret;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 

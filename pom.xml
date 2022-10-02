@@ -19,7 +19,7 @@
     <!-- external libraries -->
     <version.assertj>3.23.1</version.assertj>
     <version.junit-jupiter>5.9.0</version.junit-jupiter>
-    <version.mockito>4.7.0</version.mockito>
+    <version.mockito>4.8.0</version.mockito>
     <version.slf4j>1.7.36</version.slf4j>
 
     <!-- maven plugins -->
@@ -39,14 +39,19 @@
       <version>9.0.0</version>
     </dependency>
     <dependency>
-      <groupId>io.xezot.connector</groupId>
+      <groupId>io.camunda.connector</groupId>
       <artifactId>connector-core</artifactId>
       <version>${version.connector-core}</version>
     </dependency>
     <dependency>
-      <groupId>io.xezot.connector</groupId>
+      <groupId>io.camunda.connector</groupId>
       <artifactId>connector-validation</artifactId>
       <version>${version.connector-core}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.camunda.connector</groupId>
+      <artifactId>connector-runtime-job-worker</artifactId>
+      <version>0.2.0</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
